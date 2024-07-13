@@ -44,11 +44,10 @@ public class Main {
 			String productName = sc.nextLine();
 			System.out.print("Product price:");
 			double productPrice = sc.nextDouble();
-
-			Product product = new Product(productName, productPrice);
-
 			System.out.print("Quantity:");
 			int quantity = sc.nextInt();
+
+			Product product = new Product(productName, productPrice);
 
 			OrderItem orderItem = new OrderItem(quantity, productPrice, product);
 
