@@ -7,17 +7,17 @@ Este é um sistema simples de gerenciamento de pedidos escrito em Java. O sistem
 O projeto está organizado da seguinte maneira:
 
 .
-├── src
-│ ├── application
-│ │ └── Main.java
-│ ├── entities
-│ │ ├── Client.java
-│ │ ├── Order.java
-│ │ ├── OrderItem.java
-│ │ └── Product.java
-│ └── entities/enums
-│ └── OrderStatus.java
-└── README.md
+##### ├── src
+##### │ ├── application
+##### │ │ └── Main.java
+##### │ ├── entities
+##### │ │ ├── Client.java
+##### │ │ ├── Order.java
+##### │ │ ├── OrderItem.java
+##### │ │ └── Product.java
+##### │ └── entities/enums
+##### │ └── OrderStatus.java
+##### └── README.md
 
 
 ### Pacote `application`
@@ -48,33 +48,33 @@ O programa realiza as seguintes etapas:
 
 Ao executar o programa, ele solicitará entradas do usuário conforme o exemplo abaixo:
 
-Enter client data:
-Name: John Doe
-Email: john.doe@example.com
-Birth date (DD/MM/YYYY): 15/05/1990
-
-Enter order data:
-Status: PROCESSING
-
-How many items to this order? 2
-Enter #1 item data:
-Product name: Laptop
-Product price: 1200.00
-Quantity: 1
-
-Enter #2 item data:
-Product name: Mouse
-Product price: 40.00
-Quantity: 2
-
-ORDER SUMMARY:
-Order moment: 13/07/2024 15:30:45
-Order status: PROCESSING
-Client: John Doe (15/05/1990) - john.doe@example.com
-Order items:
-Laptop, $1200.00, Quantity: 1, Subtotal: $1200.00
-Mouse, $40.00, Quantity: 2, Subtotal: $80.00
-Total price: $1280.00
+###### Enter client data:
+###### Name: John Doe
+###### Email: john.doe@example.com
+###### Birth date (DD/MM/YYYY): 15/05/1990
+###### 
+###### Enter order data:
+###### Status: PROCESSING
+###### 
+###### How many items to this order? 2
+###### Enter #1 item data:
+###### Product name: Laptop
+###### Product price: 1200.00
+###### Quantity: 1
+###### 
+###### Enter #2 item data:
+###### Product name: Mouse
+###### Product price: 40.00
+###### Quantity: 2
+###### 
+###### ORDER SUMMARY:
+###### Order moment: 13/07/2024 15:30:45
+###### Order status: PROCESSING
+###### Client: John Doe (15/05/1990) - john.doe@example.com
+###### Order items:
+###### Laptop, $1200.00, Quantity: 1, Subtotal: $1200.00
+###### Mouse, $40.00, Quantity: 2, Subtotal: $80.00
+###### Total price: $1280.00
 
 
 ## Como Executar o Projeto
